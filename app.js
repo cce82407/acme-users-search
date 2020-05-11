@@ -69,10 +69,14 @@ form.addEventListener('submit', ((ev) => {
 }))
 
 
-form.addEventListener('click', ((ev) => {
+clearLink.addEventListener('click', ((ev) => {
     ev.preventDefault()
-    searchterm.value = ''
-}))
+
+    if(ev.target.innerText === 'clear'){
+        console.log(ev.target)
+        searchterm.value = ''
+    }}))
+
 
 
 fetchAndRender()
