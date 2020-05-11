@@ -1,4 +1,6 @@
-
+.app{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 .header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -9,3 +11,17 @@ input {
     text-align: center;
     width: 100%;
 }
+
+img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 0 1rem;
+  }
+
+  table {
+      width: 100%;
+      text-align: left;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
